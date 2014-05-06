@@ -1,0 +1,21 @@
+{
+    "name": "potherca/heroku-buildpack-php-issue-43",
+    "version": "0.0.0",
+    "description": "Project to reproduce issue in regards to Composer autoloader not being generated unless the composer.lock file is also committed.",
+    "homepage": "https://github.com/potherca/heroku-buildpack-php-issue-43",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Potherca",
+            "email": "potherca@gmail.com",
+            "homepage": "http://pother.ca/",
+            "role": "Nuisance Extraordinaire"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    },
+    "require-dev": {
+        "heroku/heroku-buildpack-php": "13"
+    }
+}
